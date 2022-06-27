@@ -5,7 +5,7 @@ phases:
       docker: 19
   pre_build:
     commands:
-      - echo Logging in to Amazon ECR...
+      - echo Logging in to Amazon ECR...!!!!!
       - aws --version
       - $(aws ecr get-login --region $AWS_DEFAULT_REGION --no-include-email)
       - REPOSITORY_URI=562950550475.dkr.ecr.us-east-1.amazonaws.com/mylab
