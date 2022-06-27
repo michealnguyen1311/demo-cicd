@@ -2,7 +2,7 @@ version: "3"
 
 services:
   nuxt:
-    image: ${IMAGE_NAME}:${IMAGE_TAG}
+    image: 562950550475.dkr.ecr.us-east-1.amazonaws.com/mylab:2b71d68
     container_name: web
     restart: always
     ports:
